@@ -1,0 +1,32 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 960px;
+  height: 100dvh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  --pixel-size: 20px;
+}
+.box-1 {
+  background-color: #6943ff;
+  height: 40%;
+  border-radius: var(--pixel-size) var(--pixel-size) 0 0;
+}
+.box-2 {
+  background-color: #1f2937;
+  height: 60%;
+  border-radius: 0 0 var(--pixel-size) var(--pixel-size);
+}
